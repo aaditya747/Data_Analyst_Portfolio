@@ -1,11 +1,13 @@
 SELECT COUNT(*) AS total_records
 FROM retail_sales_db.retail_sales;
 
+
 SELECT
     COUNT(*) AS total_rows,
     COUNT(DISTINCT OrderID) AS unique_orders,
     COUNT(*) - COUNT(DISTINCT OrderID) AS duplicate_orders
-FROM retail_sales_db.retail_sales;\
+FROM retail_sales_db.retail_sales;
+
 
 SELECT
     SUM(CASE WHEN CustomerName IS NULL OR TRIM(CustomerName) = '' THEN 1 ELSE 0 END) AS missing_customer_names,
@@ -19,9 +21,11 @@ ADD COLUMN Order_Date DATE;
 UPDATE retail_sales_db.retail_sales
 SET Order_Date = STR_TO_DATE(OrderDate, '%c/%e/%Y');
 
+
 SELECT OrderDate, Order_Date
 FROM retail_sales_db.retail_sales
 LIMIT 10;
+
 
 SELECT
     COUNT(*) AS total_records,
@@ -29,6 +33,7 @@ SELECT
     MIN(Order_Date) AS first_order_date,
     MAX(Order_Date) AS last_order_date
 FROM retail_sales_db.retail_sales;
+
 
 SELECT
     ROUND(SUM(Sales), 2) AS Total_Revenue,
@@ -38,6 +43,7 @@ SELECT
     SUM(Quantity) AS Total_Quantity_Sold,
     ROUND(SUM(Sales) / COUNT(DISTINCT OrderID), 2) AS Average_Order_Value
 FROM retail_sales_db.retail_sales;
+
 
 SELECT
     Category,
@@ -52,6 +58,7 @@ SELECT
 FROM retail_sales_db.retail_sales
 GROUP BY Category
 ORDER BY Total_Revenue DESC;
+
 
 SELECT
     YEAR(Order_Date) AS Sales_Year,
@@ -68,7 +75,8 @@ GROUP BY
 ORDER BY
     Sales_Year,
     Sales_Month;
-    
+
+
 SELECT
     MONTHNAME(Order_Date) AS Month_Name,
     ROUND(SUM(Sales), 2) AS Total_Revenue,
@@ -76,6 +84,7 @@ SELECT
 FROM retail_sales_db.retail_sales
 GROUP BY MONTH(Order_Date), MONTHNAME(Order_Date)
 ORDER BY Total_Revenue DESC;
+
 
 SELECT
     City,
@@ -90,6 +99,7 @@ FROM retail_sales_db.retail_sales
 GROUP BY City
 ORDER BY Total_Revenue DESC;
 
+
 SELECT
     ProductID,
     ProductName,
@@ -101,6 +111,7 @@ FROM retail_sales_db.retail_sales
 GROUP BY ProductID, ProductName, Category
 ORDER BY Total_Revenue DESC
 LIMIT 10;
+
 
 SELECT
     PaymentMode,
@@ -116,6 +127,7 @@ FROM retail_sales_db.retail_sales
 GROUP BY PaymentMode
 ORDER BY Total_Revenue DESC;
 
+
 SELECT
     SalesChannel,
     COUNT(*) AS Total_Orders,
@@ -129,6 +141,7 @@ SELECT
 FROM retail_sales_db.retail_sales
 GROUP BY SalesChannel
 ORDER BY Total_Revenue DESC;
+
 
 SELECT
     DiscountPct,
