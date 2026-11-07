@@ -1,93 +1,119 @@
 # Aaditya Mahajan | Data Analyst Portfolio
 
-Welcome to my Data Analyst Portfolio! I build practical analytics projects to turn raw data into meaningful business insights using **SQL, Python, Power BI, Excel and DAX**.
+Welcome! This repository showcases my data analytics projects, where I use **Python, SQL, Power BI and DAX** to explore data, answer business questions and communicate insights through dashboards.
 
-This repository showcases my project work across data cleaning, exploratory analysis, SQL querying, KPI development, business intelligence dashboards and insight communication.
+## Portfolio at a glance
 
-## About This Portfolio
+- **3 projects completed**
+- **2 projects planned**
+- Core tools: Python, MySQL, Power BI, DAX and GitHub
 
-My goal is to demonstrate an end-to-end data analytics workflow:
-
-1. Understand the business problem and dataset.
-2. Inspect, clean and validate data.
-3. Explore the data using Python and SQL.
-4. Develop meaningful metrics and KPIs.
-5. Build interactive Power BI dashboards.
-6. Communicate findings through clear documentation and visualizations.
-
-## Projects
+## Completed projects
 
 ### Project 01 — Retail Sales Analytics
-**Status:** Completed
+<sub>Status: Completed</sub>
 
-A retail analytics project focused on sales and profit performance, product/category trends and business insights using SQL and Power BI.
+Retail sales analysis focused on sales and profit performance, product and category trends, and business insights using SQL and Power BI.
 
-[Open Project 01](Project_01_Retail_Sales/)
+[View Project 01](Project_01_Retail_Sales/)
 
 ### Project 02 — Education Analytics
-**Status:** Completed
+<sub>Status: Completed</sub>
 
-An education-focused analytics project exploring education-related data and presenting findings through data analysis and visualization.
+An education analytics project using data analysis and visualization to explore education-related business information.
 
-[Open Project 02](Project_02_Education_Analytics/)
+[View Project 02](Project_02_Education_Analytics/)
 
 ### Project 03 — Education 360° Business Analytics
-**Status:** Completed
+<sub>Status: Completed</sub>
 
-An end-to-end education academy business analytics project using Python, MySQL, Power BI and DAX. It covers student admissions, marketing campaigns, placement outcomes, fee collection and branch/course performance.
+An end-to-end education academy analytics project using **Python, MySQL, Power BI and DAX**. It brings together admissions, marketing campaigns, placements and fee collection.
 
-**Dashboard pages:**
-- Executive Overview
-- Sales & Admission Analytics
-- Placement Analytics
-- Fees & Financial Analytics
+**Project overview**
 
-**Selected project KPIs:** 2,000 students, 2,000 admissions, ₹6.61 crore billed revenue, ₹5.25 crore fees collected, 79.45% collection efficiency and 697 placed students. The 34.85% placement figure is an overall recorded placement rate using all recorded students as the denominator.
+![Education 360 project overview](https://github.com/aaditya747/Data_Analyst_Portfolio/blob/main/Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/Screenshots/Project_03_Overview.png?raw=true)
 
-[Open Project 03](Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/)
+**Power BI dashboard pages**
+
+| Executive Overview | Sales & Admission Analytics |
+|---|---|
+| ![Executive dashboard](https://github.com/aaditya747/Data_Analyst_Portfolio/blob/main/Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/Screenshots/04_Executive_Dashboard.png?raw=true) | ![Sales and admission dashboard](https://github.com/aaditya747/Data_Analyst_Portfolio/blob/main/Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/Screenshots/03_Sales_Admission_Analytics.png?raw=true) |
+
+| Placement Analytics | Fees & Financial Analytics |
+|---|---|
+| ![Placement dashboard](https://github.com/aaditya747/Data_Analyst_Portfolio/blob/main/Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/Screenshots/02_Placement_Analytics.png?raw=true) | ![Financial dashboard](https://github.com/aaditya747/Data_Analyst_Portfolio/blob/main/Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/Screenshots/01_Financial_Analytics.png?raw=true) |
+
+**Selected KPIs**
+- 2,000 students and 2,000 admissions
+- ₹6.61 crore total billed revenue
+- ₹5.25 crore fees collected
+- 79.45% collection efficiency
+- 697 placed students
+- 34.85% overall recorded placement rate (697 / 2,000 students)
+
+*The placement rate uses all recorded students as its denominator; a separate eligible-student population is not identified in the dataset. Marketing campaign totals are aggregated separately from individual lead records.*
+
+[View Project 03 files and documentation](Project%2003%20%E2%80%94%20Academy%20Business%20Analytics/)
+
+## Planned projects
 
 ### Project 04 — HR Analytics & Workforce Intelligence
-**Status:** Planned
+<sub>Status: Planned</sub>
 
-Planned analysis of workforce composition, employee demographics, department performance, salary patterns, employee attrition and retention using Python, SQL and Power BI.
+Planned focus:
+- Workforce headcount and employee demographics
+- Department and role analysis
+- Salary and compensation patterns
+- Employee attrition and retention
+- HR dashboard with workforce KPIs
+
+**Planned tools:** Python, SQL and Power BI.
 
 ### Project 05 — Customer Churn & Retention Analytics
-**Status:** Planned
+<sub>Status: Planned</sub>
 
-Planned analysis of customer behavior, churn patterns, retention, customer segments and factors associated with customer loss, supported by SQL, Python and an interactive Power BI dashboard.
+Planned focus:
+- Customer behavior and segmentation
+- Churn rate and retention analysis
+- Customer tenure and usage patterns
+- Factors associated with customer churn
+- Customer retention dashboard
 
-## Skills & Tools
+**Planned tools:** Python, SQL and Power BI.
 
-| Area | Tools / Skills |
+## Skills and tools
+
+| Area | Tools / techniques |
 |---|---|
 | Data analysis | Python, Pandas, NumPy |
-| Databases & querying | MySQL, SQL, joins, CTEs, subqueries, window functions |
+| SQL | MySQL, joins, CTEs, subqueries, window functions |
 | Business intelligence | Power BI, interactive dashboards |
-| Data modeling & metrics | DAX, KPI development, data relationships |
-| Data preparation | Data cleaning, validation, exploratory data analysis |
-| Reporting | Business insights, documentation, data visualization |
-| Version control | Git, GitHub |
+| Metrics | DAX, KPI development |
+| Data preparation | Data cleaning, validation, exploratory analysis |
+| Reporting | Data visualization, business insights, documentation |
+| Version control | Git and GitHub |
 
-## Repository Structure
+## Repository structure
 
 ```text
 Data_Analyst_Portfolio/
 ├── Project_01_Retail_Sales/
 ├── Project_02_Education_Analytics/
 ├── Project 03 — Academy Business Analytics/
-├── README.md
-└── Future projects (planned)
+└── README.md
 ```
 
-Each project folder contains its relevant analysis files, documentation and supporting visuals. Dataset files containing personal or sensitive information should not be published publicly.
+## Current roadmap
 
-## Current Focus
-
-I am continuing to build projects that demonstrate practical problem-solving and the use of analytics tools together. The next planned projects are **HR Analytics & Workforce Intelligence** and **Customer Churn & Retention Analytics**.
+- [x] Project 01 — Retail Sales Analytics
+- [x] Project 02 — Education Analytics
+- [x] Project 03 — Education 360° Business Analytics
+- [ ] Project 04 — HR Analytics & Workforce Intelligence
+- [ ] Project 05 — Customer Churn & Retention Analytics
 
 ## Connect
 
-- **GitHub:** [aaditya747](https://github.com/aaditya747)
-- **Portfolio Repository:** [Data_Analyst_Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
+- GitHub: [aaditya747](https://github.com/aaditya747)
+- Portfolio: [Data_Analyst_Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
 
-Thank you for visiting my portfolio!
+Thanks for visiting my portfolio!
