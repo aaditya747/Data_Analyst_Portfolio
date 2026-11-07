@@ -16,6 +16,8 @@ I am an aspiring Data Analyst interested in data cleaning, exploratory data anal
 - **Microsoft Excel:** Power Query, data cleaning, data preparation
 - **Tools:** Jupyter Notebook, VS Code, MySQL Workbench, GitHub
 
+---
+
 ## Portfolio Projects
 
 ### 1. Retail Sales Analysis
@@ -24,20 +26,26 @@ I am an aspiring Data Analyst interested in data cleaning, exploratory data anal
 
 An end-to-end retail sales analytics project using a synthetic dataset containing 5,000 transaction records.
 
-**Project objectives:**
+**Project Objectives:**
+
 - Clean and prepare retail transaction data.
 - Perform SQL analysis using MySQL.
-- Analyze revenue, profit, orders, products and cities.
+- Analyze revenue, profit, orders, products, categories and cities.
 - Develop an interactive Power BI dashboard.
-- Present business insights through documentation.
+- Present findings through business-focused documentation.
 
-**Key findings:**
-- Total revenue: ₹183,923.19
-- Total profit: ₹60,272.49
-- Highest-revenue city: Pune
-- Most profitable category: Furniture
+**Key Findings:**
 
-**Project repository:** [View Project 01](./Project_01_Retail_Sales/)
+- Total Revenue: ₹183,923.19
+- Total Profit: ₹60,272.49
+- Highest-Revenue City: Pune
+- Most Profitable Category: Furniture
+
+**Dashboard Preview**
+
+![Retail Sales Analysis Dashboard](./Project_01_Retail_Sales/Screenshots/Retail_Sales_Dashboard.png)
+
+**Explore the Project:** [View Project 01 – Retail Sales Analysis](./Project_01_Retail_Sales/)
 
 ---
 
@@ -47,28 +55,40 @@ An end-to-end retail sales analytics project using a synthetic dataset containin
 
 An education analytics project analyzing Mathematics and Portuguese student performance using the UCI Student Performance Dataset.
 
-**Project objectives:**
+**Project Objectives:**
+
 - Inspect and prepare academic datasets using Python.
 - Compare Mathematics and Portuguese performance.
 - Analyze attendance, study time and previous failures.
 - Perform correlation analysis and statistical testing.
 - Build three interactive Power BI dashboards.
 
-**Key findings:**
-- Total subject records: 1,044
-- Overall pass rate: 77.97%
-- Mathematics pass rate: 67.09%
-- Portuguese pass rate: 84.59%
-- High-absence group pass rate: 62.96%
-- Average final grade: approximately 11.35
+**Key Findings:**
+
+- Total Subject Records: 1,044
+- Overall Pass Rate: 77.97%
+- Mathematics Pass Rate: 67.09%
+- Portuguese Pass Rate: 84.59%
+- High-Absence Group Pass Rate: 62.96%
+- Average Final Grade: 11.35
 
 **Dashboard Preview**
 
-![Education Analytics Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_Overview.png)
+![Education Analytics Dashboard Overview](./Project_02_Education_Analytics/Screenshots/Dashboard_Overview.png)
 
-**Project repository:** [View Project 02](./Project_02_Education_Analytics/)
+**Individual Dashboard Pages:**
 
-**Documentation:** [Project Documentation](./Project_02_Education_Analytics/Documentation/)
+| Subject Performance | Attendance Analysis |
+|---|---|
+| ![Subject Performance Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_01_Subject_Performance.png) | ![Attendance Analysis Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_02_Attendance_Analysis.png) |
+
+**Study Time and Previous Failures**
+
+![Study Time and Previous Failures Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_03_Study_Time_Failures.png)
+
+**Explore the Project:** [View Project 02 – Education Analytics](./Project_02_Education_Analytics/)
+
+**Documentation:** [View Project Documentation](./Project_02_Education_Analytics/Documentation/)
 
 ---
 
@@ -82,7 +102,8 @@ An education analytics project analyzing Mathematics and Portuguese student perf
 - Data visualization
 - DAX measures and KPI development
 - Interactive Power BI dashboard design
-- Technical documentation and GitHub project management
+- Technical documentation
+- GitHub project management
 
 ## Portfolio Roadmap
 
@@ -96,6 +117,8 @@ An education analytics project analyzing Mathematics and Portuguese student perf
 ## Contact
 
 - **GitHub:** [aaditya747](https://github.com/aaditya747)
-- **Portfolio:** [Data Analyst Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
+- **Portfolio Repository:** [Data Analyst Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
+
+---
 
 Thank you for visiting my portfolio!
