@@ -1,6 +1,6 @@
 # Education 360° — Business Analytics
 
-![Project Banner](Project_03_Overview.png)
+![Project Banner](Screenshots/Project_03_Overview.png)
 
 An end-to-end education business analytics project using Python, MySQL, Power BI and DAX to analyze admissions, marketing, placements and financial performance.
 
