@@ -2,60 +2,100 @@
 
 Welcome to my Data Analyst Portfolio!
 
-I am building practical, independent data analytics projects to demonstrate my skills in data cleaning, SQL analysis, data visualization, and business reporting.
+I build practical data analytics projects to transform raw data into meaningful insights using SQL, Python, Excel and Power BI.
 
 ## About Me
 
-I enjoy working with data to identify patterns, understand business performance, and turn raw information into meaningful insights.
+I am an aspiring Data Analyst interested in data cleaning, exploratory data analysis, statistical analysis, SQL querying and interactive dashboard development.
 
 ## Technical Skills
 
-- **SQL:** MySQL, data querying, aggregations, joins, business analysis
+- **SQL:** MySQL, data querying, aggregations, joins
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn
+- **Power BI:** DAX, KPI reporting, interactive dashboards, data visualization
 - **Microsoft Excel:** Power Query, data cleaning, data preparation
-- **Power BI:** Interactive dashboards, KPI reporting, data visualization
-- **Python:** Pandas and data analysis (learning and project development)
+- **Tools:** Jupyter Notebook, VS Code, MySQL Workbench, GitHub
 
 ## Portfolio Projects
 
 ### 1. Retail Sales Analysis
 
-**Technologies:** Excel Power Query | MySQL | Power BI
+**Technologies:** MySQL | Excel | Power Query | Power BI
 
-An independent end-to-end analytics project using a synthetic retail dataset containing 5,000 transaction records from January to December 2025.
+An end-to-end retail sales analytics project using a synthetic dataset containing 5,000 transaction records.
 
 **Project objectives:**
-- Clean and prepare raw retail transaction data.
-- Import and validate data using MySQL.
-- Analyze revenue, profit, orders, products, categories, cities, and payment methods.
-- Build an interactive Power BI dashboard.
-- Present findings through business-focused documentation.
+- Clean and prepare retail transaction data.
+- Perform SQL analysis using MySQL.
+- Analyze revenue, profit, orders, products and cities.
+- Develop an interactive Power BI dashboard.
+- Present business insights through documentation.
+
+**Key findings:**
+- Total revenue: ₹183,923.19
+- Total profit: ₹60,272.49
+- Highest-revenue city: Pune
+- Most profitable category: Furniture
+
+**Project repository:** [View Project 01](./Project_01_Retail_Sales/)
+
+---
+
+### 2. Education Analytics – Student Performance Analysis
+
+**Technologies:** Python | Pandas | NumPy | SciPy | Seaborn | Power BI | DAX
+
+An education analytics project analyzing Mathematics and Portuguese student performance using the UCI Student Performance Dataset.
+
+**Project objectives:**
+- Inspect and prepare academic datasets using Python.
+- Compare Mathematics and Portuguese performance.
+- Analyze attendance, study time and previous failures.
+- Perform correlation analysis and statistical testing.
+- Build three interactive Power BI dashboards.
+
+**Key findings:**
+- Total subject records: 1,044
+- Overall pass rate: 77.97%
+- Mathematics pass rate: 67.09%
+- Portuguese pass rate: 84.59%
+- High-absence group pass rate: 62.96%
+- Average final grade: approximately 11.35
 
 **Dashboard Preview**
 
-![Retail Sales Dashboard](Project_01_Retail_Sales/Screenshots/Retail_Sales_Dashboard.png)
+![Education Analytics Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_Overview.png)
 
-**Key results:**
-- Total Revenue: ₹41.95 Million
-- Total Profit: ₹13.73 Million
-- Total Orders: 5,000
-- Distinct Customers: 500
+**Project repository:** [View Project 02](./Project_02_Education_Analytics/)
 
-**Project Files:**
-- [Project Documentation](Project_01_Retail_Sales/Documentation/Project_Documentation.docx)
-- [Data Dictionary](Project_01_Retail_Sales/Documentation/Data_Dictionary.xlsx)
-- [SQL Business Findings](Project_01_Retail_Sales/Documentation/SQL_Business_Findings.docx)
-- [SQL Analysis Script](Project_01_Retail_Sales/SQL/Retail_Sales_Analysis.sql)
-- [Power BI Dashboard](Project_01_Retail_Sales/PowerBI/Retail_Sales_Analysis.pbix)
-- [Raw Dataset](Project_01_Retail_Sales/Dataset/retail_sales_raw.csv)
-- [Cleaned Dataset](Project_01_Retail_Sales/Dataset/Retail_Sales_Cleaned.csv)
+**Documentation:** [Project Documentation](./Project_02_Education_Analytics/Documentation/)
 
-*Note: The dataset is synthetic and was created for independent portfolio practice. The results are not from a real company.*
+---
+
+## Skills Demonstrated
+
+- Data cleaning and preparation
+- Exploratory Data Analysis (EDA)
+- SQL querying and business analysis
+- Statistical hypothesis testing
+- Correlation and effect-size analysis
+- Data visualization
+- DAX measures and KPI development
+- Interactive Power BI dashboard design
+- Technical documentation and GitHub project management
+
+## Portfolio Roadmap
+
+| Project | Focus | Status |
+|---|---|---|
+| Project 01 | Retail Sales Analysis | Completed |
+| Project 02 | Education Analytics | Completed |
+| Project 03 | Upcoming Data Analytics Project | Planned |
+| Project 04 | Upcoming Data Analytics Project | Planned |
 
 ## Contact
 
-- **Name:** Aaditya Mahajan
 - **GitHub:** [aaditya747](https://github.com/aaditya747)
-
----
+- **Portfolio:** [Data Analyst Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
 
 Thank you for visiting my portfolio!
