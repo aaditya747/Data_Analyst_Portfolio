@@ -1,124 +1,109 @@
-# Aaditya Mahajan | Data Analyst Portfolio
+# Education 360° — Business Analytics
 
-Welcome to my Data Analyst Portfolio!
+![Project Banner](Project_03_Overview.png)
 
-I build practical data analytics projects to transform raw data into meaningful insights using SQL, Python, Excel and Power BI.
+An end-to-end education business analytics project using Python, MySQL, Power BI and DAX to analyze admissions, marketing, placements and financial performance.
 
-## About Me
+## Project Overview
 
-I am an aspiring Data Analyst interested in data cleaning, exploratory data analysis, statistical analysis, SQL querying and interactive dashboard development.
+Education 360° provides a comprehensive view of an education academy's business performance. The project transforms multiple datasets into meaningful business insights through data analysis, SQL queries and interactive Power BI dashboards.
 
-## Technical Skills
+## Objectives
 
-- **SQL:** MySQL, data querying, aggregations, joins
-- **Python:** Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn
-- **Power BI:** DAX, KPI reporting, interactive dashboards, data visualization
-- **Microsoft Excel:** Power Query, data cleaning, data preparation
-- **Tools:** Jupyter Notebook, VS Code, MySQL Workbench, GitHub
+- Analyze student admissions and enrollment trends.
+- Evaluate branch-wise and course-wise performance.
+- Understand marketing campaigns and lead activity.
+- Measure student placement outcomes.
+- Monitor revenue, fee collection and outstanding balances.
+- Build interactive dashboards for business decision-making.
 
----
+## Technology Stack
 
-## Portfolio Projects
+ Technology  Purpose 
+------
+ Python  Data inspection, cleaning and EDA 
+ MySQL 8.0  Database management and SQL analysis 
+ Power BI  Interactive dashboards 
+ DAX  KPI calculations and business measures 
+ DAX Studio  DAX measure validation 
+ GitHub  Project documentation and version control 
 
-### 1. Retail Sales Analysis
+## Dashboard Pages
 
-**Technologies:** MySQL | Excel | Power Query | Power BI
+### 1. Executive Overview
 
-An end-to-end retail sales analytics project using a synthetic dataset containing 5,000 transaction records.
+![Executive Dashboard](Screenshots/04_Executive_Dashboard.png)
 
-**Project Objectives:**
+Provides a consolidated overview of admissions, revenue, students, placement performance and branch performance.
 
-- Clean and prepare retail transaction data.
-- Perform SQL analysis using MySQL.
-- Analyze revenue, profit, orders, products, categories and cities.
-- Develop an interactive Power BI dashboard.
-- Present findings through business-focused documentation.
+### 2. Sales & Admission Analytics
 
-**Key Findings:**
+![Sales Dashboard](Screenshots/03_Sales_Admission_Analytics.png)
 
-- Total Revenue: ₹183,923.19
-- Total Profit: ₹60,272.49
-- Highest-Revenue City: Pune
-- Most Profitable Category: Furniture
+Analyzes leads, admissions, lead sources, calls, branch comparisons and monthly admission trends.
 
-**Dashboard Preview**
+### 3. Placement Analytics
 
-![Retail Sales Analysis Dashboard](./Project_01_Retail_Sales/Screenshots/Retail_Sales_Dashboard.png)
+![Placement Dashboard](Screenshots/02_Placement_Analytics.png)
 
-**Explore the Project:** [View Project 01 – Retail Sales Analysis](./Project_01_Retail_Sales/)
+Explores placed students, placement rates, salary packages, branch performance and company-wise placement distribution.
 
----
+### 4. Fees & Financial Analytics
 
-### 2. Education Analytics – Student Performance Analysis
+![Financial Dashboard](Screenshots/01_Financial_Analytics.png)
 
-**Technologies:** Python | Pandas | NumPy | SciPy | Seaborn | Power BI | DAX
+Analyzes billed revenue, collected fees, outstanding balances, collection efficiency and payment methods.
 
-An education analytics project analyzing Mathematics and Portuguese student performance using the UCI Student Performance Dataset.
+## Key Business KPIs
 
-**Project Objectives:**
+ KPI  Value 
+------
+ Total Students  2,000 
+ Total Admissions  2,000 
+ Total Billed Revenue  ₹6.61 Crore 
+ Fees Collected  ₹5.25 Crore 
+ Outstanding Fees  ₹1.36 Crore 
+ Collection Efficiency  79.45% 
+ Placed Students  697 
+ Overall Recorded Placement Rate  34.85% 
+ Average Salary Package  ₹5.24 LPA 
+ Marketing Leads Generated  39,934 
 
-- Inspect and prepare academic datasets using Python.
-- Compare Mathematics and Portuguese performance.
-- Analyze attendance, study time and previous failures.
-- Perform correlation analysis and statistical testing.
-- Build three interactive Power BI dashboards.
+## Key Insights
 
-**Key Findings:**
+- The academy recorded ₹5.25 crore in fee collections.
+- Collection efficiency stands at 79.45%.
+- A total of 697 students have recorded placement status as Placed.
+- Karve Nagar branch has the highest recorded branch revenue.
+- Data Science has the highest remaining fee balance.
+- Marketing campaign data provides aggregate lead-generation and admission-conversion insights.
 
-- Total Subject Records: 1,044
-- Overall Pass Rate: 77.97%
-- Mathematics Pass Rate: 67.09%
-- Portuguese Pass Rate: 84.59%
-- High-Absence Group Pass Rate: 62.96%
-- Average Final Grade: 11.35
+## SQL Analysis
 
-**Dashboard Preview**
+The project includes nine SQL scripts covering
 
-![Education Analytics Dashboard Overview](./Project_02_Education_Analytics/Screenshots/Dashboard_Overview.png)
+1. Database Setup
+2. Data Exploration
+3. Data Quality Checks
+4. Student Admissions Analysis
+5. Marketing & Lead Analysis
+6. Placement Analytics
+7. Financial Analytics
+8. Advanced Business Analysis
+9. KPI Summary
 
-**Individual Dashboard Pages:**
+SQL concepts include JOINs, GROUP BY, HAVING, CASE WHEN, subqueries, CTEs, RANK, DENSE_RANK, ROW_NUMBER, LAG, LEAD and running totals.
 
-| Subject Performance | Attendance Analysis |
-|---|---|
-| ![Subject Performance Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_01_Subject_Performance.png) | ![Attendance Analysis Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_02_Attendance_Analysis.png) |
+## Important Data Limitations
 
-**Study Time and Previous Failures**
+- Individual lead-to-admission conversion cannot be reliably established without a validated matching key.
+- Marketing conversion metrics represent campaign-level aggregate data.
+- Placement rate uses all recorded students as the denominator, not a separately identified eligible-student population.
+- Monthly financial analysis uses admission date because the fees dataset does not contain a payment date.
+- Student personal information is excluded from public project uploads.
 
-![Study Time and Previous Failures Dashboard](./Project_02_Education_Analytics/Screenshots/Dashboard_03_Study_Time_Failures.png)
+## Project Outcome
 
-**Explore the Project:** [View Project 02 – Education Analytics](./Project_02_Education_Analytics/)
+This project demonstrates practical skills in data analysis, database querying, business intelligence, KPI development and interactive dashboard creation.
 
-**Documentation:** [View Project Documentation](./Project_02_Education_Analytics/Documentation/)
-
----
-
-## Skills Demonstrated
-
-- Data cleaning and preparation
-- Exploratory Data Analysis (EDA)
-- SQL querying and business analysis
-- Statistical hypothesis testing
-- Correlation and effect-size analysis
-- Data visualization
-- DAX measures and KPI development
-- Interactive Power BI dashboard design
-- Technical documentation
-- GitHub project management
-
-## Portfolio Roadmap
-
-| Project | Focus | Status |
-|---|---|---|
-| Project 01 | Retail Sales Analysis | Completed |
-| Project 02 | Education Analytics | Completed |
-| Project 03 | Upcoming Data Analytics Project | Planned |
-| Project 04 | Upcoming Data Analytics Project | Planned |
-
-## Contact
-
-- **GitHub:** [aaditya747](https://github.com/aaditya747)
-- **Portfolio Repository:** [Data Analyst Portfolio](https://github.com/aaditya747/Data_Analyst_Portfolio)
-
----
-
-Thank you for visiting my portfolio!
+It showcases an end-to-end analytics workflow, from raw data inspection to business reporting and visualization.
