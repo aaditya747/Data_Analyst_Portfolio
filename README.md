@@ -29,7 +29,7 @@ Analyzed retail sales performance across revenue, profit, orders, customers, pro
 
 ### Dashboard Preview
 
-![Retail Sales Analytics Dashboard](assets/Project_01/Retail_Sales_Dashboard.png)
+![Retail Sales Analytics Dashboard](Project_01_Retail_Sales/Screenshots/Retail_Sales_Dashboard.png)
 
 **Dashboard highlights**
 - Total sales: **41.95M**
@@ -51,19 +51,19 @@ Analyzed student subject records to explore academic performance, attendance, st
 
 ### Dashboard Overview
 
-![Education Analytics Dashboard Overview](assets/Project_02/Dashboard_Overview.png)
+![Education Analytics Dashboard Overview](Project_02_Education_Analytics/Screenshots/Dashboard_Overview.png)
 
 ### Dashboard 1 — Subject Performance
 
-![Subject Performance Dashboard](assets/Project_02/Dashboard_01_Subject_Performance.png)
+![Subject Performance Dashboard](Project_02_Education_Analytics/Screenshots/Dashboard_01_Subject_Performance.png)
 
 ### Dashboard 2 — Attendance Analysis
 
-![Attendance Analysis Dashboard](assets/Project_02/Dashboard_02_Attendance_Analysis.png)
+![Attendance Analysis Dashboard](Project_02_Education_Analytics/Screenshots/Dashboard_02_Attendance_Analysis.png)
 
 ### Dashboard 3 — Study Time & Previous Failures
 
-![Study Time and Previous Failures Dashboard](assets/Project_02/Dashboard_03_Study_Time_Failures.png)
+![Study Time and Previous Failures Dashboard](Project_02_Education_Analytics/Screenshots/Dashboard_03_Study_Time_Failures.png)
 
 **Selected findings**
 - Total subject records: **1,044**
