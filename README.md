@@ -1,8 +1,8 @@
 # Education 360° — Business Analytics
 
-![Project Banner](Project_03_Overview.png)
+![Project Banner](Screenshots/Project_03_Overview.png)
 
-An end-to-end education business analytics project using Python, MySQL, Power BI and DAX to analyze admissions, marketing, placements and financial performance.
+An end-to-end education business analytics project using **Python, MySQL, Power BI and DAX** to analyze admissions, marketing, placements and financial performance.
 
 ## Project Overview
 
@@ -19,14 +19,14 @@ Education 360° provides a comprehensive view of an education academy's business
 
 ## Technology Stack
 
- Technology  Purpose 
-------
- Python  Data inspection, cleaning and EDA 
- MySQL 8.0  Database management and SQL analysis 
- Power BI  Interactive dashboards 
- DAX  KPI calculations and business measures 
- DAX Studio  DAX measure validation 
- GitHub  Project documentation and version control 
+| Technology | Purpose |
+|---|---|
+| Python | Data inspection, cleaning and EDA |
+| MySQL 8.0 | Database management and SQL analysis |
+| Power BI | Interactive dashboards |
+| DAX | KPI calculations and business measures |
+| DAX Studio | DAX measure validation |
+| GitHub | Project documentation and version control |
 
 ## Dashboard Pages
 
@@ -56,18 +56,18 @@ Analyzes billed revenue, collected fees, outstanding balances, collection effici
 
 ## Key Business KPIs
 
- KPI  Value 
-------
- Total Students  2,000 
- Total Admissions  2,000 
- Total Billed Revenue  ₹6.61 Crore 
- Fees Collected  ₹5.25 Crore 
- Outstanding Fees  ₹1.36 Crore 
- Collection Efficiency  79.45% 
- Placed Students  697 
- Overall Recorded Placement Rate  34.85% 
- Average Salary Package  ₹5.24 LPA 
- Marketing Leads Generated  39,934 
+| KPI | Value |
+|---|---:|
+| Total Students | 2,000 |
+| Total Admissions | 2,000 |
+| Total Billed Revenue | ₹6.61 Crore |
+| Fees Collected | ₹5.25 Crore |
+| Outstanding Fees | ₹1.36 Crore |
+| Collection Efficiency | 79.45% |
+| Placed Students | 697 |
+| Overall Recorded Placement Rate | 34.85% |
+| Average Salary Package | ₹5.24 LPA |
+| Marketing Leads Generated | 39,934 |
 
 ## Key Insights
 
@@ -80,7 +80,7 @@ Analyzes billed revenue, collected fees, outstanding balances, collection effici
 
 ## SQL Analysis
 
-The project includes nine SQL scripts covering
+The project includes nine SQL scripts covering:
 
 1. Database Setup
 2. Data Exploration
